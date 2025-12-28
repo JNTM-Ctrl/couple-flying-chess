@@ -831,6 +831,26 @@ export default function CoupleLudoGame() {
               </div>
             </div>
           </div>
+          
+          {/* 新版本开发计划通知卡片 */}
+          <div className="development-notice-card">
+            <div className="notice-header">
+              <Sparkles size={20} className="notice-icon" />
+              <h3 className="notice-title">🚀 新版本内测信息</h3>
+            </div>
+            <div className="notice-content">
+              <p className="notice-text">
+                新版本内测地址：
+                <a href="https://v2.cpfly.top/" target="_blank" rel="noopener noreferrer" className="contact-email">https://v2.cpfly.top/</a>
+              </p>
+              <p className="notice-text">
+                内容反馈交流群（QQ）：<strong>1070223428</strong>
+              </p>
+              <p className="notice-text">
+                新版本重构了游戏模式：<strong>房间模式</strong>，可以异地游戏，各自有自己的题库，可以AI生成题库。当前可能无法支持太多用户游戏，有能力的也可以自己部署。当前处于内测阶段。
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="start-content">
